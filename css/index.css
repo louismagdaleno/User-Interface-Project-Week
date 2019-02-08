@@ -156,6 +156,15 @@ table {
 .header img {
   margin-right: 5%;
 }
+.jumbotron h1 {
+  font-weight: 'Bold';
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFFFFF;
+  z-index: 1;
+  margin-top: -270px;
+  margin-left: 100px;
+}
 .container {
   width: 100%;
   max-width: 1024px;
