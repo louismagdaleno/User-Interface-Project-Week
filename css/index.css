@@ -203,6 +203,37 @@ table {
   padding-left: 10px;
   padding-right: 10px;
 }
+.recent_projects {
+  margin-top: 40px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.recent_projects .recent_project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.recent_projects .recent_project span {
+  background-color: #D8D8D8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  font-weight: 'Bold';
+  font-size: 28px;
+  color: #222222;
+  z-index: 1;
+  margin-top: -50px;
+  margin-right: -85%;
+}
 .container {
   width: 100%;
   max-width: 1024px;
