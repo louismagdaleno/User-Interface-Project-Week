@@ -1,0 +1,29 @@
+.recent_projects {
+    margin-top: 40px;
+    width: @mid-section-width;
+    margin: 0 auto;
+    .flex-class(@f-direction: column; @j-content: space-between; @a-items: center);
+
+    .recent_project {
+        .flex-class(@f-direction: column; @j-content: space-between; @a-items: center);
+
+        span {
+            background-color: @recent-projects-gray-square;
+            .flex-class(@f-direction: row; @j-content: space-between; @a-items: center);
+            text-align: center;
+            height: 100px;
+            width: 200px;
+            font-weight: @sub-header-font-weight;
+            font-size: @sub-header-font-size;
+            color: @sub-header-color;
+            z-index: 1;
+            margin-top: -50px;
+            margin-right: -85%;
+        }
+
+        p {
+
+        }
+    }
+
+}
